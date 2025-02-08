@@ -176,3 +176,8 @@ tags
 
 # wandb
 wandb
+
+# Marcos
+venv_sd3/
+examples/dreambooth/*model/
+examples/dreambooth/*.png
