@@ -180,4 +180,4 @@ wandb
 # Marcos
 venv_sd3/
 examples/dreambooth/*model/
-examples/dreambooth/*.png
+examples/dreambooth/*/*.png
