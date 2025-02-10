@@ -4,7 +4,6 @@ export MODEL_NAME="stabilityai/stable-diffusion-3-medium-diffusers"
 export PERSON="mrt"
 export INSTANCE_DATA_DIR="/mnt/Data/mrt/$PERSON"
 export INSTANCE_PROMPT="a photo of $PERSON"
-export VALIDATION_PROMPT="a photo of $PERSON wearing a hat"
 export CLASS_PROMPT="an ultra realistic photo of a man"
 export OUTPUT_DIR="${PERSON}-model"
 
