@@ -15,7 +15,5 @@ pipe = StableDiffusionPipeline.from_pretrained(
     torch_dtype=torch.float16,
 ).to("cuda")
 
-
 image = pipe(prompt).images[0]
 image.save(save_to)
-
