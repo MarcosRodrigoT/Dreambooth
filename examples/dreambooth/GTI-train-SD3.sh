@@ -23,7 +23,7 @@ accelerate launch train_dreambooth_lora_sd3.py \
     --text_encoder_lr=1.0 \
     --lr_scheduler="constant" \
     --lr_warmup_steps=0 \
-    --max_train_steps=1500 \
+    --max_train_steps=2500 \
     --rank=32 \
     --seed="0" \
 	--push_to_hub
